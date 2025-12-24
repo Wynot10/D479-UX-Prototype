@@ -8,3 +8,19 @@
 .click:hover {
     background-color: #0c3c96;
 }
+
+.body-bg {
+    background-image: url("images/ocean.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: rgb(161, 241, 241);
+
+
+}
+
+.my-font {
+    font-family: 'Tahoma', sans-serif;
+    font-size: 1.75rem;
+}
