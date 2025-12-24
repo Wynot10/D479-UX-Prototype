@@ -2,7 +2,7 @@
     background-image: url('images/beach.jpg');
     background-size: cover;
     background-position: center;
-    margin-bottom: -20px;
+    margin-top: 3rem;
 }
 
 .click:hover {
