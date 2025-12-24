@@ -1,0 +1,10 @@
+.header-bg {
+    background-image: url('images/beach.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: -20px;
+}
+
+.click:hover {
+    background-color: #0c3c96;
+}
