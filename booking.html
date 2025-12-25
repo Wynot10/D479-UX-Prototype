@@ -70,16 +70,32 @@
                     </div>
                     <!-- second column -->
                     <div class="col-md-8 d-flex align-items-center">
-                        <p class="my-font fs-4 ">
-                            Taniti Island is a tropical paradise located in the heart of the Pacific Ocean. Known for
-                            its
-                            pristine beaches, crystal-clear waters, and lush greenery, Taniti offers a perfect escape
-                            for
-                            travelers seeking relaxation and adventure. Visitors can indulge in various activities such
-                            as snorkeling, hiking, and exploring local culture. With its warm climate and friendly
-                            locals,
-                            Taniti Island promises an unforgettable experience for all who visit.
-                        </p>
+                        <form>
+
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Name:</label>
+                                <input type="text" class="form-control" id="name">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email address:</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="email">
+                                <div id="email" class="form-text">We'll never share your email with anyone else.
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label">Message:</label>
+                                <textarea class="form-control" rows="5" id="message" type="text"></textarea>
+
+                            </div>
+
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Accept Terms and Conditions</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
                     </div>
                 </div>
             </div>
